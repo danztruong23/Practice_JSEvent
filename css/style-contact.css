@@ -1,0 +1,168 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #dadada;
+  max-width: 85%;
+  margin: 2rem auto;
+}
+
+.small-info.name {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.nav-divider.top,
+.nav-divider.bottom {
+  border: 0.5px solid black;
+  margin: 1rem 0;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+h2 {
+  font-size: 1.55rem;
+  margin-top: 2rem;
+}
+
+.action-01 {
+  font-size: 0.9rem;
+  margin: 0.6rem 0 0.8rem 0;
+}
+
+.phone-icon,
+.email-icon {
+  width: 1.2rem;
+  position: relative;
+  top: 0.5rem;
+  margin-right: 0.7rem;
+}
+
+.phone-number a,
+.email-address a {
+  font-size: 0.7rem;
+}
+
+.email-address {
+  margin-bottom: 0.8rem;
+}
+
+.info a {
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+.social-media-icon {
+  margin-bottom: 1.5rem;
+}
+
+.social-media-icon svg {
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.social-media-icon svg:hover {
+  color: darkgrey;
+}
+
+.user-input label {
+  font-size: 0.8rem;
+}
+
+.full-name-input,
+.email-input {
+  margin-bottom: 0.8rem;
+}
+
+.message-input {
+  margin-bottom: 1.5rem;
+}
+
+#full-name,
+#email,
+#message {
+  width: 100%;
+  font-size: 0.6rem;
+  font-style: italic;
+  border: none;
+  border-bottom: 0.8px solid black;
+  background-color: #dadada;
+}
+
+#full-name:focus,
+#email:focus,
+#message:focus {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.2rem;
+}
+
+.submit-button {
+  border-radius: 0;
+  border: 0.8px solid white;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.8rem;
+}
+
+@media only screen and (min-width: 680px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-divider.top,
+  .nav-divider.bottom {
+    display: none;
+  }
+
+  .navigation ul {
+    justify-content: end;
+    gap: 4vw;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-media-icon {
+    margin-top: 1.5rem;
+  }
+
+  .user-input {
+    position: relative;
+    top: 7.1rem;
+    width: 50%;
+  }
+}
